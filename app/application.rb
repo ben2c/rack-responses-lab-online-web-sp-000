@@ -5,7 +5,7 @@ class Application
 
     time = Time.new
     timenow = time.hour
-    resp.write time
+    resp.write timenow
 
     if num_1==num_2 && num_2==num_3
       resp.write "You Win"
